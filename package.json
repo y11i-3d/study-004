@@ -1,0 +1,60 @@
+{
+  "name": "study-004",
+  "description": "A visual study by y11i (Yuichiroh Arai).",
+  "keywords": [
+    "penner's",
+    "spring",
+    "easing"
+  ],
+  "repository": "github:y11i-3d/study-004",
+  "homepage": "https://y11i-3d.github.io/study-004/",
+  "author": {
+    "name": "Yuichiroh Arai",
+    "url": "https://yuichiroharai.com/"
+  },
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.2",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "astro": "^5.17.1",
+    "gsap": "^3.14.2",
+    "jotai": "^2.18.0",
+    "leva": "^0.10.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "three": "^0.183.2"
+  },
+  "volta": {
+    "node": "24.14.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/node": "^25.3.5",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.183.1",
+    "eslint": "^10.0.2",
+    "eslint-plugin-astro": "^1.6.0",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^17.4.0",
+    "prettier": "^3.8.1",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-astro-organize-imports": "^0.4.11",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.2.1",
+    "typescript-eslint": "^8.56.1"
+  }
+}
